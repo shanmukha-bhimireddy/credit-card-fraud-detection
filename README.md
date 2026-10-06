@@ -31,8 +31,7 @@ Full analysis: [`notebooks/fraud_detection.ipynb`](notebooks/fraud_detection.ipy
 - **Overnight risk:** in the first ~5 hours of each day in the data, the fraud rate reaches **1.7%** — about **10× the average** — while legitimate volume is at its lowest. (Hours are derived from seconds elapsed since the first transaction.)
 - **Small-ticket fraud:** the median fraudulent transaction is **$9.25** vs. **$22** for legitimate ones — consistent with card-testing behaviour.
 
-![Fraud rate by hour](images/fraud_rate_by_hour.jpg)
-![Precision-recall](images/precision_recall.jpg)
+![Fraud rate by hour](images/fraud_rate_by_hour.png)
 
 ## Recommendations
 - Send model alerts above the cost-optimal threshold to a review queue; tighten rules overnight.
